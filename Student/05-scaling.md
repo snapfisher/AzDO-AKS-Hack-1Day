@@ -1,6 +1,6 @@
 # Challenge 5: Scaling
 
-[< Previous Challenge](./04-k8sdeployment.md) - **[Home](../README.md)** - [Next Challenge >](./06-CI in Azure Devops Classic.md)
+[< Previous Challenge](./04-k8sdeployment.md) - **[Home](../README.md)** - [Next Challenge >](./06-CI-in-Azure-Devops-Classic.md)
 
 ## Introduction
 
