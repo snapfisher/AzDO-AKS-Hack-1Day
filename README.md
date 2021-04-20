@@ -11,6 +11,24 @@ In this hack you will solve a common challenge for companies migrating to the cl
 ## Challenges
 - Challenge 0: **[Pre-requisites - Ready, Set, GO!](Student/00-prereqs.md)**
    - Prepare your workstation to work with Azure, Docker containers, and AKS
+   - Challenge 1: **[Got Containers?](Student/01-containers.md)**
+   - Package the "FabMedical" app into a Docker container and run it locally.
+- Challenge 2: **[The Azure Container Registry](Student/02-acr.md)**
+   - Deploy an Azure Container Registry, secure it and publish your container.
+- Challenge 3: **[Introduction To Kubernetes](Student/03-k8sintro.md)**
+   - Install the Kubernetes CLI tool, deploy an AKS cluster in Azure, and verify it is running.
+- Challenge 4: **[Your First Deployment](Student/04-k8sdeployment.md)**
+   - Pods, Services, Deployments: Getting your YAML on! Deploy the "FabMedical" app to your AKS cluster. 
+- Challenge 5: **[Scaling and High Availability](Student/05-scaling.md)**
+   - Flex Kubernetes' muscles by scaling pods, and then nodes. Observe how Kubernetes responds to resource limits.
+- Challenge 6: **[CI in Azure Devops Classic](Student/06-CI in Azure Devops Classic.md)**
+   - Create a CI workflow to build containers into the ACR using ACR Tasks
+- Challenge 7: **[CD in Azure DevOps Classic](Student/07-CD in Azure DevOps Classic.md)**
+   - Create a CD workflow to deploy from the ACR into the AKS Cluster
+- Challenge 8: **[CI-CD in AzureDevOps Yaml](Student/08 CI-CD in AzureDevOps Yaml.md)**
+   - Create a Yaml based workflow to handle both CI and CD
+- Challenge 9: **[Private AKS Clusters](Student/09-privateaks.md)**
+   - Create an AKS cluster deployment which has no public endpoints
    
 ## Prerequisites
 
