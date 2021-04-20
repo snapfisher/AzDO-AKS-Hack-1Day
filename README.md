@@ -20,7 +20,7 @@ In this hack you will solve a common challenge for companies migrating to the cl
 - Challenge 4: **[Your First Deployment](Student/04-k8sdeployment.md)**
    - Pods, Services, Deployments: Getting your YAML on! Deploy the "FabMedical" app to your AKS cluster. 
 - Challenge 5: **[Scaling and High Availability](Student/05-scaling.md)**
-   - Flex Kubernetes' muscles by scaling pods, and then nodes. Observe how Kubernetes responds to resource limits.
+   - A quick look at how to scale a cluster in AKS
 - Challenge 6: **[CI in Azure Devops Classic](Student/06-CI-in-Azure-Devops-Classic.md)**
    - Create a CI workflow to build containers into the ACR using ACR Tasks
 - Challenge 7: **[CD in Azure DevOps Classic](Student/07-CD-in-Azure-DevOps-Classic.md)**
