@@ -1,6 +1,6 @@
 # Challenge 9: Private AKS
 
-[< Previous Challenge](./08 CI-CD in AzureDevOps Yaml.md) - **[Home](../README.md)** 
+[< Previous Challenge](./08-CI-CD-in-Azure-DevOps-Yaml.md) - **[Home](../README.md)** 
 
 ## Introduction
 
