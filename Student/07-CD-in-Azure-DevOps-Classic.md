@@ -22,10 +22,10 @@ If you are connecting within Azure DevOps to a kubernetes cluster -- whether it 
 
 1. If your identity in Azure DevOps and your identity in Azure are the same, then this is the easy(ier) path.  As in the previous challenge, from the service connections page, create a new connection to the cluster.  This will be a "Kubernetes" connection, and you will want to set it's type to "Azure Subscription".
 1. If your identity in Azure DevOps is different than your Azure identity, you will need to connect to the cluster through a service account configured on the cluster itself.  So the first thing you will need to do is create the service account.  This will require you to create a service account manifest file.  You also need to bind the account to a rolebinding configured for edit (hint: --clusterrole=edit)
-  1. Once that is done, you will need to add specific information into the new service connection dialog in Azure DevOps
-    1. Server url: kubectl.exe config view --minify -o "jsonpath={.clusters[0].cluster.server}"
-    1. Secret step one: kubectl.exe get serviceAccounts humanaserviceaccount -o=jsonpath={.secrets[*].name}
-    1. Secret step two: kubectl.exe get secret {output from step 1} -o json
+  * Once that is done, you will need to add specific information into the new service connection dialog in Azure DevOps
+  * Server url: kubectl.exe config view --minify -o "jsonpath={.clusters[0].cluster.server}"
+  * Secret step one: kubectl.exe get serviceAccounts humanaserviceaccount -o=jsonpath={.secrets[*].name}
+  * Secret step two: kubectl.exe get secret {output from step 1} -o json
 
 ## Success Criteria
 
